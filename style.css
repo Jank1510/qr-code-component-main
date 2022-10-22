@@ -1,74 +1,62 @@
 .attribution {
-    font-size: 11px;
     text-align: center;
-    background-color: hsl(212, 45%, 89%);
+    background-color: hsl(212, 45%, 89%);color:black;   
 }
 
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
 
-body {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    margin: 0;
-}
-
-#contenedor {
-    display: block;
-    width: 100%;
-    height: 100%;
-    text-align: center;
+body {width: 100%;
+    height: 100vh;
     background-color: hsl(212, 45%, 89%);
+    display: flex;
+    margin: 0;
+    flex-direction: column;
 }
 
-#contenido {
-    background-color: white;
-    display: inline-block;
-    width: 310px;
-    border-radius: 20px;
-    margin-top: 8%;
-}
-
-#contenido img {
-    width: 280px;
-    border-radius: 15px;
-    margin: 14px;
-}
-
-#contenido h1 {
-    font-size: 18px;
-    margin-left: 20px;
-    margin-right: 20px;
-    font-weight: bold;
-    color: hsl(218, 44%, 22%);
-}
-
-#contenido p {
-    margin-left: 15px;
-    margin-right: 15px;
-    font-weight: lighter;
-    margin-bottom: 40px;
-    color: hsl(220, 15%, 55%);
-}
-
-@media (min-width: 360px) {
-    #contenido {
-        background-color: white;
-        display: inline-block;
-        width: 310px;
-        border-radius: 20px;
-        margin-top: 38%;
+@media (min-width: 300px) {
+    #contenido {background-color: white;
+        width: 70vw;
+        border-radius: 5vw;
+        margin: auto;
+    }
+    
+    #contenido img {width: 60vw;
+        border-radius: 5vw;
+        margin: 5vw;
+    }*{
+        font-size: 1rem;text-align: center;
+    }#contenido h1 {
+        font-size: 1.35rem;
+        font-weight: bold;
+        color: hsl(218, 44%, 22%);
+    }
+    #contenido p {font-weight: lighter;
+        padding: 1rem;
+        color: hsl(220, 15%, 55%);
     }
 }
 
-@media (min-width: 1281px) {
-    #contenido {
-        background-color: white;
-        display: inline-block;
-        width: 310px;
-        border-radius: 20px;
-        margin-top: 13%;
+@media (min-width: 900px) {
+    #contenido {background-color: white;
+        width: 22vw;
+        border-radius: 1vw;
+        margin: auto;
+    }
+    
+    #contenido img {width: 20vw;
+        border-radius: 1vw;
+        margin: 1vw;
+    }*{
+        font-size: 1vw;text-align: center;
+    }#contenido h1 {
+        font-size: 1.35vw;
+        font-weight: bold;
+        color: hsl(218, 44%, 22%);
+    }
+    #contenido p {font-weight: lighter;
+        padding: 1vw;
+        color: hsl(220, 15%, 55%);
     }
 }
