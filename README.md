@@ -1,5 +1,5 @@
 # qr-code-component-main
-qr-code-component-main CHALLENGE
+qr-code-component-main CHALLENGE finalizado ☑
 
 # Project Link :
 https://jank1510.github.io/qr-code-component-main/
